@@ -56,16 +56,24 @@ textarea {
     color: #36373D;
     font-size: 20px
 }
-label{
-    padding: 30px;
+
+label {
     color: #36373D;
-    margin: 10px;
+    display: flex;
 }
+
+label input[type="checkbox"] {
+    display: block; 
+    margin-left: 30px; 
+}
+
 .level{
     padding: 30px;
 }
 .level h1{
     padding: 0;
+    color: #36373D;
+    font-size: 20px;
 }
 .generate{
     padding: 30px;
