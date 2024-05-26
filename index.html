@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <p><i class="fa fa-warning"></i> Create your first quiz or test with AI, by simply <br> entering or pasting content below. </p>
+         </header> 
+
+         <nav>
+        <ul>
+            <li><a href="#">Texts</a></li>
+            <li><a href="#">Topics</a></li>
+            <li><a href="#">URL</a></li>
+            <li><a href="#">Uploads</a></li>
+            <li><a href="#">Updates</a></li>
+            <li><a href="#">Highlights</a></li>
+        </ul>
+    </nav>
+    <div class="textbox">
+        <h1>Enter your text</h1>
+        <textarea id="quiz-content" placeholder="Type or copy and paste your notes to generate questions from text, maximum 2,000 characters. Paid account can use up to 50,000 characters "></textarea>
+    </div>
+        <div class="question">
+            <h1>Question type</h1>
+            <label>
+                <input type="checkbox" name=all"> All
+                <input type="checkbox" name=all"> Multiplechoice
+                <input type="checkbox" name=all"> True/False 
+            </label>
+            <div class="question">
+                <label>
+                <input type="checkbox" name=all"> Open Question
+                <input type="checkbox" name=all"> Fill in the blanks
+                </label>
+            </div>     
+            <div class="level">
+                <h1>Difficult  level</h1>
+                <input type="radio" name="Gender" value="Easy"> Easy
+                <input type="radio" name="Gender" value="Intermediate"> Intermediate
+                <input type="radio" name="Gender" value="Professional"> Professional
+            </div>
+        </div>
+        <div class="generate">
+            <button>Generate Quiz</button>
+        </div>
+  
+    
+    <script src="script.js"></script>
+</body>
+</html>
